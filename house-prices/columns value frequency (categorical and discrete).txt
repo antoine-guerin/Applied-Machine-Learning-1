@@ -1,0 +1,706 @@
+Column 'MS SubClass', values are:
+20    0.38
+60    0.19
+50    0.10
+120   0.07
+30    0.05
+70    0.04
+160   0.04
+80    0.04
+90    0.04
+190   0.02
+85    0.02
+75    0.01
+45    0.01
+180   0.01
+40    0.00
+150   0.00
+Name: MS SubClass, dtype: float64
+
+Column 'MS Zoning', values are:
+RL        0.78
+RM        0.16
+FV        0.05
+RH        0.01
+C (all)   0.01
+I (all)   0.00
+A (agr)   0.00
+Name: MS Zoning, dtype: float64
+
+Column 'Street', values are:
+Pave   1.00
+Grvl   0.00
+Name: Street, dtype: float64
+
+Column 'Lot Shape', values are:
+Reg   0.62
+IR1   0.34
+IR2   0.03
+IR3   0.01
+Name: Lot Shape, dtype: float64
+
+Column 'Land Contour', values are:
+Lvl   0.90
+Bnk   0.04
+HLS   0.04
+Low   0.02
+Name: Land Contour, dtype: float64
+
+Column 'Utilities', values are:
+AllPub   1.00
+NoSewr   0.00
+NoSeWa   0.00
+Name: Utilities, dtype: float64
+
+Column 'Lot Config', values are:
+Inside    0.73
+Corner    0.17
+CulDSac   0.06
+FR2       0.03
+FR3       0.00
+Name: Lot Config, dtype: float64
+
+Column 'Land Slope', values are:
+Gtl   0.95
+Mod   0.04
+Sev   0.01
+Name: Land Slope, dtype: float64
+
+Column 'Neighborhood', values are:
+NAmes     0.15
+CollgCr   0.09
+OldTown   0.09
+Edwards   0.07
+Somerst   0.06
+Gilbert   0.06
+NridgHt   0.06
+Sawyer    0.05
+NWAmes    0.05
+SawyerW   0.04
+Mitchel   0.04
+BrkSide   0.04
+Crawfor   0.03
+IDOTRR    0.03
+Timber    0.02
+NoRidge   0.02
+StoneBr   0.02
+ClearCr   0.02
+SWISU     0.02
+MeadowV   0.01
+BrDale    0.01
+NPkVill   0.01
+Blmngtn   0.01
+Veenker   0.01
+Greens    0.00
+Blueste   0.00
+GrnHill   0.00
+Landmrk   0.00
+Name: Neighborhood, dtype: float64
+
+Column 'Condition 1', values are:
+Norm     0.86
+Feedr    0.06
+Artery   0.03
+RRAn     0.02
+PosN     0.01
+RRAe     0.01
+PosA     0.01
+RRNn     0.00
+RRNe     0.00
+Name: Condition 1, dtype: float64
+
+Column 'Condition 2', values are:
+Norm     0.99
+Feedr    0.00
+Artery   0.00
+PosA     0.00
+PosN     0.00
+RRNn     0.00
+RRAn     0.00
+RRAe     0.00
+Name: Condition 2, dtype: float64
+
+Column 'Bldg Type', values are:
+1Fam     0.83
+TwnhsE   0.08
+Twnhs    0.04
+Duplex   0.04
+2fmCon   0.02
+Name: Bldg Type, dtype: float64
+
+Column 'House Style', values are:
+1Story   0.51
+2Story   0.29
+1.5Fin   0.11
+SLvl     0.04
+SFoyer   0.03
+2.5Unf   0.01
+1.5Unf   0.01
+2.5Fin   0.00
+Name: House Style, dtype: float64
+
+Column 'Overall Qual', values are:
+5    0.28
+6    0.25
+7    0.21
+8    0.11
+4    0.07
+9    0.04
+3    0.01
+10   0.01
+2    0.00
+1    0.00
+Name: Overall Qual, dtype: float64
+
+Column 'Overall Cond', values are:
+5   0.56
+6   0.18
+7   0.13
+8   0.05
+4   0.03
+3   0.02
+9   0.01
+2   0.00
+1   0.00
+Name: Overall Cond, dtype: float64
+
+Column 'Roof Style', values are:
+Gable     0.79
+Hip       0.19
+Gambrel   0.01
+Flat      0.01
+Mansard   0.00
+Shed      0.00
+Name: Roof Style, dtype: float64
+
+Column 'Roof Matl', values are:
+CompShg   0.98
+Tar&Grv   0.01
+WdShake   0.00
+WdShngl   0.00
+Metal     0.00
+ClyTile   0.00
+Membran   0.00
+Name: Roof Matl, dtype: float64
+
+Column 'Exterior 1st', values are:
+VinylSd   0.35
+MetalSd   0.15
+HdBoard   0.15
+Wd Sdng   0.14
+Plywood   0.08
+CemntBd   0.04
+BrkFace   0.03
+WdShing   0.02
+Stucco    0.01
+AsbShng   0.01
+BrkComm   0.00
+AsphShn   0.00
+CBlock    0.00
+Stone     0.00
+PreCast   0.00
+ImStucc   0.00
+Name: Exterior 1st, dtype: float64
+
+Column 'Exterior 2nd', values are:
+VinylSd   0.35
+MetalSd   0.15
+HdBoard   0.14
+Wd Sdng   0.13
+Plywood   0.09
+CmentBd   0.04
+Wd Shng   0.03
+BrkFace   0.02
+Stucco    0.02
+AsbShng   0.01
+Brk Cmn   0.01
+ImStucc   0.00
+Stone     0.00
+AsphShn   0.00
+CBlock    0.00
+PreCast   0.00
+Name: Exterior 2nd, dtype: float64
+
+Column 'Mas Vnr Type', values are:
+None      0.60
+BrkFace   0.30
+Stone     0.09
+BrkCmn    0.01
+CBlock    0.00
+Name: Mas Vnr Type, dtype: float64
+
+Column 'Exter Qual', values are:
+TA   0.62
+Gd   0.34
+Ex   0.04
+Fa   0.01
+Name: Exter Qual, dtype: float64
+
+Column 'Exter Cond', values are:
+TA   0.87
+Gd   0.10
+Fa   0.02
+Ex   0.00
+Po   0.00
+Name: Exter Cond, dtype: float64
+
+Column 'Foundation', values are:
+PConc    0.45
+CBlock   0.42
+BrkTil   0.11
+Slab     0.02
+Stone    0.00
+Wood     0.00
+Name: Foundation, dtype: float64
+
+Column 'Bsmt Qual', values are:
+TA   0.44
+Gd   0.41
+Ex   0.09
+Fa   0.03
+NA   0.03
+Po   0.00
+Name: Bsmt Qual, dtype: float64
+
+Column 'Bsmt Cond', values are:
+TA   0.89
+Gd   0.04
+Fa   0.03
+NA   0.03
+Po   0.00
+Ex   0.00
+Name: Bsmt Cond, dtype: float64
+
+Column 'Bsmt Exposure', values are:
+No   0.64
+Av   0.14
+Gd   0.10
+Mn   0.09
+NA   0.03
+Name: Bsmt Exposure, dtype: float64
+
+Column 'BsmtFin Type 1', values are:
+GLQ   0.29
+Unf   0.29
+ALQ   0.14
+Rec   0.10
+BLQ   0.09
+LwQ   0.05
+NA    0.03
+Name: BsmtFin Type 1, dtype: float64
+
+Column 'BsmtFin Type 2', values are:
+Unf   0.85
+Rec   0.03
+LwQ   0.03
+NA    0.03
+BLQ   0.03
+ALQ   0.02
+GLQ   0.01
+Name: BsmtFin Type 2, dtype: float64
+
+Column 'Heating', values are:
+GasA    0.99
+GasW    0.01
+Grav    0.00
+Wall    0.00
+OthW    0.00
+Floor   0.00
+Name: Heating, dtype: float64
+
+Column 'Heating QC', values are:
+Ex   0.51
+TA   0.30
+Gd   0.17
+Fa   0.03
+Po   0.00
+Name: Heating QC, dtype: float64
+
+Column 'Central Air', values are:
+Y   0.93
+N   0.07
+Name: Central Air, dtype: float64
+
+Column 'Electrical', values are:
+SBrkr   0.91
+FuseA   0.07
+FuseF   0.02
+FuseP   0.00
+Mix     0.00
+Name: Electrical, dtype: float64
+
+Column 'Kitchen Qual', values are:
+TA   0.51
+Gd   0.39
+Ex   0.07
+Fa   0.02
+Po   0.00
+Name: Kitchen Qual, dtype: float64
+
+Column 'Functional', values are:
+Typ    0.93
+Min1   0.02
+Min2   0.02
+Mod    0.01
+Maj1   0.01
+Maj2   0.00
+Sev    0.00
+Sal    0.00
+Name: Functional, dtype: float64
+
+Column 'Garage Type', values are:
+Attchd    0.59
+Detchd    0.27
+BuiltIn   0.06
+NA        0.06
+Basment   0.01
+2Types    0.01
+CarPort   0.00
+Name: Garage Type, dtype: float64
+
+Column 'Garage Finish', values are:
+Unf   0.42
+RFn   0.27
+Fin   0.25
+NA    0.06
+Name: Garage Finish, dtype: float64
+
+Column 'Garage Qual', values are:
+TA   0.89
+NA   0.06
+Fa   0.04
+Gd   0.01
+Po   0.00
+Ex   0.00
+Name: Garage Qual, dtype: float64
+
+Column 'Garage Cond', values are:
+TA   0.91
+NA   0.06
+Fa   0.03
+Po   0.01
+Gd   0.01
+Ex   0.00
+Name: Garage Cond, dtype: float64
+
+Column 'Paved Drive', values are:
+Y   0.90
+N   0.08
+P   0.02
+Name: Paved Drive, dtype: float64
+
+Column 'Sale Type', values are:
+WD      0.87
+New     0.08
+COD     0.03
+ConLD   0.01
+CWD     0.00
+ConLI   0.00
+Oth     0.00
+Con     0.00
+ConLw   0.00
+VWD     0.00
+Name: Sale Type, dtype: float64
+
+Column 'Sale Condition', values are:
+Normal    0.83
+Partial   0.08
+Abnorml   0.06
+Family    0.01
+Alloca    0.01
+AdjLand   0.00
+Name: Sale Condition, dtype: float64
+
+Column 'Year Built', values are:
+2005-01-01   0.05
+2006-01-01   0.04
+2007-01-01   0.04
+2004-01-01   0.03
+2003-01-01   0.03
+1920-01-01   0.02
+1977-01-01   0.02
+1976-01-01   0.02
+1999-01-01   0.02
+2008-01-01   0.02
+2002-01-01   0.02
+1958-01-01   0.02
+1954-01-01   0.02
+1968-01-01   0.02
+1910-01-01   0.02
+1978-01-01   0.02
+2000-01-01   0.02
+1967-01-01   0.02
+1998-01-01   0.02
+1972-01-01   0.01
+1959-01-01   0.01
+1970-01-01   0.01
+1993-01-01   0.01
+1971-01-01   0.01
+1961-01-01   0.01
+1940-01-01   0.01
+2001-01-01   0.01
+1965-01-01   0.01
+1997-01-01   0.01
+1960-01-01   0.01
+             ... 
+1987-01-01   0.00
+1890-01-01   0.00
+1983-01-01   0.00
+1942-01-01   0.00
+1985-01-01   0.00
+1931-01-01   0.00
+1932-01-01   0.00
+1934-01-01   0.00
+1919-01-01   0.00
+1880-01-01   0.00
+1912-01-01   0.00
+1917-01-01   0.00
+1982-01-01   0.00
+1895-01-01   0.00
+1892-01-01   0.00
+1885-01-01   0.00
+1905-01-01   0.00
+1901-01-01   0.00
+1908-01-01   0.00
+1879-01-01   0.00
+1911-01-01   0.00
+1893-01-01   0.00
+1896-01-01   0.00
+2010-01-01   0.00
+1904-01-01   0.00
+1875-01-01   0.00
+1913-01-01   0.00
+1898-01-01   0.00
+1907-01-01   0.00
+1902-01-01   0.00
+Name: Year Built, Length: 115, dtype: float64
+
+Column 'Year Remod/Add', values are:
+1950-01-01   0.12
+2006-01-01   0.07
+2007-01-01   0.05
+2005-01-01   0.05
+2004-01-01   0.04
+2000-01-01   0.04
+2003-01-01   0.03
+2002-01-01   0.03
+2008-01-01   0.03
+1998-01-01   0.03
+1999-01-01   0.02
+1995-01-01   0.02
+1996-01-01   0.02
+1994-01-01   0.02
+1976-01-01   0.02
+2001-01-01   0.02
+1997-01-01   0.02
+1977-01-01   0.02
+1993-01-01   0.01
+1968-01-01   0.01
+1978-01-01   0.01
+1970-01-01   0.01
+1972-01-01   0.01
+1967-01-01   0.01
+1958-01-01   0.01
+1975-01-01   0.01
+1971-01-01   0.01
+1992-01-01   0.01
+1969-01-01   0.01
+1991-01-01   0.01
+             ... 
+2009-01-01   0.01
+1980-01-01   0.01
+1965-01-01   0.01
+1990-01-01   0.01
+1959-01-01   0.01
+1954-01-01   0.01
+1963-01-01   0.01
+1979-01-01   0.01
+1962-01-01   0.01
+1956-01-01   0.01
+1961-01-01   0.01
+1955-01-01   0.01
+1964-01-01   0.01
+1984-01-01   0.01
+1974-01-01   0.01
+1966-01-01   0.01
+1973-01-01   0.01
+1953-01-01   0.01
+1957-01-01   0.01
+1989-01-01   0.01
+1988-01-01   0.00
+1985-01-01   0.00
+1952-01-01   0.00
+1986-01-01   0.00
+2010-01-01   0.00
+1951-01-01   0.00
+1981-01-01   0.00
+1987-01-01   0.00
+1983-01-01   0.00
+1982-01-01   0.00
+Name: Year Remod/Add, Length: 61, dtype: float64
+
+Column 'Bsmt Full Bath', values are:
+0.00   0.58
+1.00   0.40
+2.00   0.01
+3.00   0.00
+Name: Bsmt Full Bath, dtype: float64
+
+Column 'Bsmt Half Bath', values are:
+0.00   0.94
+1.00   0.06
+2.00   0.00
+Name: Bsmt Half Bath, dtype: float64
+
+Column 'Full Bath', values are:
+2   0.52
+1   0.45
+3   0.02
+0   0.00
+4   0.00
+Name: Full Bath, dtype: float64
+
+Column 'Half Bath', values are:
+0   0.64
+1   0.35
+2   0.01
+Name: Half Bath, dtype: float64
+
+Column 'Bedroom AbvGr', values are:
+3   0.55
+2   0.26
+4   0.13
+1   0.04
+5   0.02
+6   0.00
+0   0.00
+8   0.00
+Name: Bedroom AbvGr, dtype: float64
+
+Column 'Kitchen AbvGr', values are:
+1   0.96
+2   0.04
+0   0.00
+3   0.00
+Name: Kitchen AbvGr, dtype: float64
+
+Column 'TotRms AbvGrd', values are:
+6    0.29
+7    0.22
+5    0.21
+8    0.12
+4    0.07
+9    0.05
+10   0.02
+11   0.01
+3    0.01
+12   0.00
+15   0.00
+13   0.00
+14   0.00
+2    0.00
+Name: TotRms AbvGrd, dtype: float64
+
+Column 'Fireplaces', values are:
+0   0.49
+1   0.43
+2   0.07
+3   0.00
+4   0.00
+Name: Fireplaces, dtype: float64
+
+Column 'Garage Yr Blt', values are:
+2005-01-01   0.05
+2007-01-01   0.04
+2006-01-01   0.04
+2004-01-01   0.04
+2003-01-01   0.03
+1977-01-01   0.02
+2008-01-01   0.02
+2002-01-01   0.02
+1998-01-01   0.02
+1976-01-01   0.02
+1999-01-01   0.02
+2000-01-01   0.02
+1968-01-01   0.02
+1993-01-01   0.02
+1950-01-01   0.02
+1920-01-01   0.02
+1978-01-01   0.02
+1958-01-01   0.02
+2001-01-01   0.02
+1954-01-01   0.01
+1997-01-01   0.01
+1967-01-01   0.01
+1974-01-01   0.01
+1970-01-01   0.01
+1959-01-01   0.01
+1956-01-01   0.01
+1965-01-01   0.01
+1994-01-01   0.01
+1961-01-01   0.01
+1979-01-01   0.01
+             ... 
+1900-01-01   0.00
+1928-01-01   0.00
+1916-01-01   0.00
+1914-01-01   0.00
+1927-01-01   0.00
+1942-01-01   0.00
+1982-01-01   0.00
+2010-01-01   0.00
+1937-01-01   0.00
+1931-01-01   0.00
+1932-01-01   0.00
+1921-01-01   0.00
+1918-01-01   0.00
+1912-01-01   0.00
+1934-01-01   0.00
+1895-01-01   0.00
+1919-01-01   0.00
+1917-01-01   0.00
+1929-01-01   0.00
+1890-01-01   0.00
+1911-01-01   0.00
+1905-01-01   0.00
+2207-01-01   0.00
+1875-01-01   0.00
+1907-01-01   0.00
+1908-01-01   0.00
+1933-01-01   0.00
+1943-01-01   0.00
+1902-01-01   0.00
+1896-01-01   0.00
+Name: Garage Yr Blt, Length: 109, dtype: float64
+
+Column 'Garage Cars', values are:
+2.00   0.55
+1.00   0.26
+3.00   0.13
+0.00   0.06
+4.00   0.00
+Name: Garage Cars, dtype: float64
+
+Column 'Mo Sold', values are:
+6    0.17
+7    0.15
+5    0.14
+4    0.09
+3    0.08
+8    0.08
+10   0.06
+9    0.06
+11   0.05
+2    0.04
+1    0.04
+12   0.04
+Name: Mo Sold, dtype: float64
+
+Column 'Yr Sold', values are:
+2007-01-01   0.24
+2008-01-01   0.22
+2009-01-01   0.21
+2006-01-01   0.21
+2010-01-01   0.12
+Name: Yr Sold, dtype: float64
+
