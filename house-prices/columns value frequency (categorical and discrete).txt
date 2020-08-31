@@ -23,8 +23,8 @@ RM        0.16
 FV        0.05
 RH        0.01
 C (all)   0.01
-I (all)   0.00
 A (agr)   0.00
+I (all)   0.00
 Name: MS Zoning, dtype: float64
 
 Column 'Street', values are:
@@ -88,8 +88,8 @@ ClearCr   0.02
 SWISU     0.02
 MeadowV   0.01
 BrDale    0.01
-NPkVill   0.01
 Blmngtn   0.01
+NPkVill   0.01
 Veenker   0.01
 Greens    0.00
 Blueste   0.00
@@ -192,14 +192,14 @@ Plywood   0.08
 CemntBd   0.04
 BrkFace   0.03
 WdShing   0.02
-Stucco    0.01
 AsbShng   0.01
+Stucco    0.01
 BrkComm   0.00
 AsphShn   0.00
-CBlock    0.00
 Stone     0.00
-PreCast   0.00
+CBlock    0.00
 ImStucc   0.00
+PreCast   0.00
 Name: Exterior 1st, dtype: float64
 
 Column 'Exterior 2nd', values are:
@@ -304,8 +304,8 @@ GasA    0.99
 GasW    0.01
 Grav    0.00
 Wall    0.00
-OthW    0.00
 Floor   0.00
+OthW    0.00
 Name: Heating, dtype: float64
 
 Column 'Heating QC', values are:
